@@ -17,6 +17,7 @@ body{
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.562);
     flex-direction: column;
+    overflow: hidden;
 }
 img{
     height: 100%;
@@ -68,7 +69,7 @@ img{
 }
 
 .weather-container{
-    position: absolute;
+    position: fixed;
     width: 450px;
     height: 450px;
     background-color: #000000da;
